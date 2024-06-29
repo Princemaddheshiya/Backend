@@ -9,5 +9,5 @@ const connectDB = async () => {
         console.log("MONGODB connection Failed:", error);
         process.exit(1);
     }
-} 
+}
 export default connectDB
